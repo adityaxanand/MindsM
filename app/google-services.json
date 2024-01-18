@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "43408167077",
+    "project_id": "mind-s-mom",
+    "storage_bucket": "mind-s-mom.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:43408167077:android:bbc6991cebb1eca8a8bd4c",
+        "android_client_info": {
+          "package_name": "com.example.mindsmom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBUqlAsH36tLx9UgbHKQ4vTOl0IQS7lcaU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

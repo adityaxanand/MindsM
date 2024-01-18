@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Mind\'s Mom</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="click_to_resister">Click To Resister</string>
+    <string name="click_to_register">click_to_register</string>
+    <string name="registration">Registration</string>
+    <string name="write_here">Write Here</string>
+    <string name="click_to_register1">click to register</string>
+</resources>

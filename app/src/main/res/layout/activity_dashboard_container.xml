@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".dashboard_container">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200dp"
+        android:text="Logout"
+        />
+    <TextView
+        android:id="@+id/user_details"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginLeft="250dp"
+        android:text="Helow world"
+        />
+    <!-- "How are you feeling today?" text -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:text="How are you feeling today?"
+        android:textSize="18sp" />
+
+    <!-- Assess Yourself Button -->
+    <Button
+        android:id="@+id/buttonAssess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Assess Yourself"
+        android:layout_gravity="center_horizontal"
+         />
+
+    <!-- Navbar Options -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="240dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonOption1"
+            android:layout_width="6dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:text="Home" />
+
+        <Button
+            android:id="@+id/btn_chatbot"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+
+            android:layout_weight="1"
+
+            android:text="ChatBot" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
